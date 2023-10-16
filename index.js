@@ -29,7 +29,8 @@ async function main() {
   // Add Firebase project configuration object here
   const firebaseConfig = {};
 
-  // initializeApp(firebaseConfig);
+  initializeApp(firebaseConfig);
+  auth = getAuth();
 
   // FirebaseUI config
   const uiConfig = {
